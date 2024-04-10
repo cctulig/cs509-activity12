@@ -1,8 +1,7 @@
-var target = Argument("target", "Clean");
-
-Task("Clean")
-    .Does(() => {
-    DotNetClean("./HandsOn12/HandsOn12.sln");
+Task("Build")
+    .Does(() =>
+{
+    DotNetBuild("./HandsOn12/HandsOn12.csproj");
 });
 
-RunTarget (target);
+RunTarget("Build");
