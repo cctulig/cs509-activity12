@@ -118,7 +118,7 @@ if(!$PSScriptRoot){
 }
 
 if(!$Script){
-    $Script = Join-Path $PSScriptRoot "build.cake"
+    $Script = Join-Path $PSScriptRoot "HandsOn12/build.cake"
 }
 $TOOLS_DIR = Join-Path $PSScriptRoot "tools"
 $ADDINS_DIR = Join-Path $TOOLS_DIR "Addins"
