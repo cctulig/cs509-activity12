@@ -1,4 +1,4 @@
-﻿namespace StringLibrary;
+﻿using HandsOn12;
 
 /// <summary>
 /// Class <c>BasicMath</c> contains basic math functions

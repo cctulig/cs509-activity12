@@ -1,8 +1,7 @@
-﻿using StringLibrary;
+﻿namespace HandsOn12;
 
 public class Program
 {
-
     public static void Main(string[] args)
     {
         Console.WriteLine("Adding 1 and 2:");
